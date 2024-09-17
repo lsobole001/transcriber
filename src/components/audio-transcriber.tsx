@@ -2,9 +2,9 @@
 
 import OpenAI from "openai";
 import React, { useState } from "react";
-import { Button } from "../ui/button";
+import { Button } from "../ui/Button";
 import { Card } from "../ui/Card";
-import { Input } from "../ui/input";
+import { Input } from "../ui/Input";
 
 // Configure OpenAI with Groq's base URL
 const openai = new OpenAI({
